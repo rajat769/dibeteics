@@ -1,0 +1,9 @@
+{
+	"name": "dibeticsdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "136ff550-0a52-4af9-b48e-0234721c6a14",
+		"tenantId": "f3872ccf-36d1-4faf-927d-9bb6035fb592"
+	}
+}
