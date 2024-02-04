@@ -5,8 +5,11 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=False;data source=RajatNigam;initial catalog=rajat_dibetics;user id=rajatnigam\\qtek",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmZDVhOWMyMy0wY2YzLTQ3NmUtYWRjNC0xNWE4YzhmYzgxMjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=RajatNigam;initial catalog=rajat_dibetics;user id=RAJATNIGAM\\qtek",
+			"alwaysEncryptedSettings": {
+				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
+			},
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlOGU3ZjIzZi0yMjRmLTQzNzEtODJkNC01NGUzMGNkMGViNWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
