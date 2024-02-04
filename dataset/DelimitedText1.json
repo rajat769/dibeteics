@@ -1,0 +1,60 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "transformed_data",
+				"container": "diabetics"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "hypertension",
+				"type": "String"
+			},
+			{
+				"name": "heart_disease",
+				"type": "String"
+			},
+			{
+				"name": "smoking_history",
+				"type": "String"
+			},
+			{
+				"name": "bmi",
+				"type": "String"
+			},
+			{
+				"name": "HbA1c_level",
+				"type": "String"
+			},
+			{
+				"name": "blood_glucose_level",
+				"type": "String"
+			},
+			{
+				"name": "diabetes",
+				"type": "String"
+			}
+		]
+	}
+}
